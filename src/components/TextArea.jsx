@@ -5,6 +5,7 @@ function TextArea() {
 
     return (
         <div>
+            <h2>TextArea</h2>
             <textarea name="" id="" onChange={(event) => textContent(event.target.value)}></textarea>
             <p>{text}</p>
         </div>

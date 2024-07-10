@@ -6,6 +6,7 @@ function Counter() {
     return (
         <>
             <div>
+                <h2>Counter</h2>
                 <p>Você clicou {count} vezes</p>
                 <button onClick={() => setCount(count + 1)}>
                     Clique aqui
